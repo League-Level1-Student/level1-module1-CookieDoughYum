@@ -77,8 +77,12 @@ public class Popcorn {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+	}String getFlavor() {
+		return this.flavor;
 	}
-	
+	void setFlavor(String flavor) {
+		
+	}
 }
 
 
